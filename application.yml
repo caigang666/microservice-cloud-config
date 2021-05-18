@@ -1,7 +1,10 @@
 spring:
   profiles:
     active: -dev
-
+---
+spring:
+  profiles:
+    active: -sss
 ---
 #生产配置
 spring:
